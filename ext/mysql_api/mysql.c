@@ -1897,8 +1897,8 @@ void Init_mysql_api(void)
             if (dots == 2) break;
         }
         if (lib[i] != MYSQL_SERVER_VERSION[i]) {
-            rb_raise(rb_eRuntimeError, "Incorrect MySQL client library version! This gem was compiled for %s but the client library is %s.", MYSQL_SERVER_VERSION, lib);
-            return;
+            //rb_raise(rb_eRuntimeError, "Incorrect MySQL client library version! This gem was compiled for %s but the client library is %s.", MYSQL_SERVER_VERSION, lib);
+            //return;
         }
     }
 
