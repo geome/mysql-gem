@@ -4,7 +4,7 @@ require "mysql/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "mysql"
-  spec.version       = Mysql::GemVersion
+  spec.version       = Mysql::GemVersion::VERSION
   spec.homepage      = "https://github.com/geome/mysql-gem"
   spec.license       = "Private"
   spec.files         = ["COPYING",
